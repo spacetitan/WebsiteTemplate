@@ -1,0 +1,56 @@
+.cardOverlayImageContainer
+{
+    background-color: aliceblue;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+    border-radius: 5%;
+    text-align: center;
+
+    box-shadow: 5px 5px 10px #0C1821;
+}
+
+.cardOverlayImage 
+{
+    position:relative;
+    
+    display: block;
+    margin-top: -10%;
+    height: 120%;
+    width: auto;
+}
+
+.cardOverlayImageOverlay
+{
+    height: 100%;
+    width: 100%;
+}
+
+.cardOverlayImageOverlay h2
+{
+    background-color: transparent;
+
+    padding-top: 5%;
+    color: #EDF2F4;
+}
+
+.cardOverlayImageContainer .cardOverlayImageOverlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0C1821;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.cardOverlayImageContainer:hover .cardOverlayImageOverlay
+{
+    opacity: .9;
+}

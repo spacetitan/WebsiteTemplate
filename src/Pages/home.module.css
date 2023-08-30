@@ -1,0 +1,22 @@
+.homeContainer
+{
+    height: 300vh;
+    width: 100%;
+
+    margin: none;
+    padding: none;
+}
+
+.homeOverlayCard
+{
+    height: 10%;
+    width: 10%;
+
+    padding: 1%;
+
+    display: flex;
+    float: left;
+    margin: auto;
+
+    border-radius: 1vh;
+}
