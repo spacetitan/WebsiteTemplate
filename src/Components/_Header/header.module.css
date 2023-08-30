@@ -1,0 +1,65 @@
+.headerContainer
+{
+    background-color: darkred;
+    height: 10vh;
+    width: auto;
+
+    padding: 0% 10%;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headerButton
+{
+    background-color: transparent;
+    width: 100%;
+
+    border-color: transparent;
+}
+
+.headerBtnLink
+{
+    background-color: transparent;
+
+    height: auto;
+    width: 5%;
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+    display: flex;
+}
+
+.headerLogo
+{
+    background-color: transparent;
+
+    height: 100%;
+    width: 100%;
+}
+
+.headerMenu
+{
+    background-color: transparent;
+
+    width: 50%;
+    height: 100%;
+
+    margin-left: auto;
+    margin-right: 0;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headerLink
+{
+    background-color: transparent;
+
+    height: 35%;
+    margin-left: 4vh;
+
+    text-decoration: none;
+}

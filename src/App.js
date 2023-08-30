@@ -2,6 +2,8 @@ import React, { useLayoutEffect } from 'react';
 import {BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import './App.module.css';
 
+import Header from './Components/_Header/header.js'
+
 import Home from './Pages/home';
 
 // const Wrapper = ({children}) => {
@@ -16,6 +18,7 @@ function App() {
   return (
     <>
     <Router basename='/'>
+      <Header/>
       <Routes>
         <Route path='/' element={<Home/>} />
       </Routes>
