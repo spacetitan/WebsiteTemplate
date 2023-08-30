@@ -1,4 +1,11 @@
 .footerContainer
 {
-    
+    background-color: darkred;
+    height: 10vh;
+    width: auto;
+
+    padding: 0% 10%;
+
+    display: flex;
+    justify-content: flex-start;
 }
