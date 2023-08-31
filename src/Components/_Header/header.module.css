@@ -1,13 +1,13 @@
 .headerContainer
 {
-    background-color: darkred;
+    background-color: transparent;
     height: 10vh;
     width: auto;
 
     padding: 0% 10%;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .headerButton

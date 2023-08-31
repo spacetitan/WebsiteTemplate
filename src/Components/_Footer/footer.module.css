@@ -1,11 +1,78 @@
 .footerContainer
 {
-    background-color: darkred;
+    background-color: transparent;
     height: 10vh;
     width: auto;
 
     padding: 0% 10%;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerBtnLink
+{
+    background-color: transparent;
+
+    height: auto;
+    width: 5%;
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.footerButton
+{
+    background-color: transparent;
+    width: 100%;
+
+    border-color: transparent;
+}
+
+.footerLogo
+{
+    background-color: transparent;
+
+    height: 100%;
+    width: 100%;
+}
+
+.footerTextContainer
+{
+    background-color: transparent;
+
+    height: 100%;
+}
+
+.footerText
+{
+    background-color: transparent;
+
+    height: 35%;
+
+    margin-bottom: 0;
+
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.footerLink
+{
+    background-color: transparent;
+
+    text-decoration: none;
+}
+
+.footerCopyrightText
+{
+    background-color: transparent;
+
+    height: 20%;
+
+    margin-top: 0;
+
+    color: #8D99AE;
+    font-size: 16px;
+    text-align: center;
 }
