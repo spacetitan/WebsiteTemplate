@@ -7,10 +7,31 @@
     padding: none;
 }
 
+.homeOverlayCardContainer
+{
+    height: 15%;
+    width: 90%;
+
+    padding: 1%;
+
+    display: flex;
+    float: left;
+    margin: auto;
+
+    border-radius: 1vh;
+}
+
 .homeOverlayCard
 {
-    height: 10%;
-    width: 10%;
+    width: 5%;
+
+    margin-right: 3vh;
+}
+
+.homeDownloadLink
+{
+    height: 15%;
+    width: 90%;
 
     padding: 1%;
 
