@@ -1,7 +1,7 @@
 import React from 'react';
 import Styles from './home.module.css';
 
-import OverlayCard from '../Components/cardOverlayImage';
+import OverlayCard from '../Components/cardOverlayImage.js';
 
 const Home = () => {
 return (
@@ -21,3 +21,7 @@ return (
 );};
 
 export default Home;
+
+//todo
+//pop up
+//hamburger menu

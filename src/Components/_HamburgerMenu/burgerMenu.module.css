@@ -1,0 +1,36 @@
+.burgerMenuContainer
+{
+    background-color: darkblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+
+    height: 90%;
+    width: 20%;
+    text-align: left;
+
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+
+    z-index: 1;
+}
+
+.burgerMenuContainerOpen
+{
+    transform: translateX(-100%);
+}
+
+.burgerMenuLink
+{
+    background-color: transparent;
+
+    text-decoration: none;
+}
